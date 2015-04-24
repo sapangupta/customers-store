@@ -1,0 +1,16 @@
+[INFO] Scanning for projects...
+Downloading: http://repo.spring.io/libs-milestone-local/org/springframework/cloud/spring-cloud-starter-parent/1.0.2.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://repo.spring.io/libs-snapshot-local/org/springframework/cloud/spring-cloud-starter-parent/1.0.2.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://repo.spring.io/libs-milestone-local/org/springframework/cloud/spring-cloud-starter-parent/1.0.2.BUILD-SNAPSHOT/spring-cloud-starter-parent-1.0.2.BUILD-SNAPSHOT.pom
+Downloading: http://repo.spring.io/libs-snapshot-local/org/springframework/cloud/spring-cloud-starter-parent/1.0.2.BUILD-SNAPSHOT/spring-cloud-starter-parent-1.0.2.BUILD-SNAPSHOT.pom
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project de.olivergierke.samples.rest:rest-microservices-customers:[unknown-version] (C:\Users\sapang\Downloads\Dusty documents\spring-cloud-samples\customers-stores\rest-microservices-customers\pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for de.olivergierke.samples.rest:rest-microservices:1.0.2.BUILD-SNAPSHOT: Could not transfer artifact org.springframework.cloud:spring-cloud-starter-parent:pom:1.0.2.BUILD-SNAPSHOT from/to repo.spring.io-milestones (http://repo.spring.io/libs-milestone-local): Failed to transfer file: http://repo.spring.io/libs-milestone-local/org/springframework/cloud/spring-cloud-starter-parent/1.0.2.BUILD-SNAPSHOT/spring-cloud-starter-parent-1.0.2.BUILD-SNAPSHOT.pom. Return code is: 409 , ReasonPhrase:Conflict. and 'parent.relativePath' points at wrong local POM @ de.olivergierke.samples.rest:rest-microservices:1.0.2.BUILD-SNAPSHOT, C:\Users\sapang\Downloads\Dusty documents\spring-cloud-samples\customers-stores\pom.xml, line 5, column 10 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
